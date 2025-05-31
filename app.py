@@ -15,6 +15,7 @@ def scrape():
     if site == "trendyol":
         results = trendyol.trendyol_scrape(product)
     elif site == "hepsiburada":
+        print(f"n11 ürün aranıyor: {product}")
         results = hepsiburada.hepsiburada_scrape(product)
     elif site == "n11":
         results = n11.n11_scrape(product)
